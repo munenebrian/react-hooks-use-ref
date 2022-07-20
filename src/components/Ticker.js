@@ -20,7 +20,6 @@ function Ticker() {
     } else {
       setColor("black");
     }
-    // set the new value of the ref (note: this doesn't trigger a re-render)
     prevPriceRef.current = price;
   }, [price]);
 
